@@ -137,3 +137,60 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+self-reliantier/
+│
+├── .gitignore                          ← Security (ignore sensitive files)
+├── .env.example                        ← Template (no real secrets)
+├── README.md                           ← Main page everyone sees
+├── LICENSE.md                          ← CC BY-SA 4.0 full text
+├── CONTRIBUTING.md                     ← How to contribute
+├── CODE_OF_CONDUCT.md                  ← Community rules
+├── SECURITY.md                         ← Report security issues
+│
+├── docs/                               ← All documentation
+│   ├── complete-documentation.md       ← 100+ page guide
+│   ├── quick-start.md
+│   ├── deployment-guide.md
+│   ├── troubleshooting.md
+│   ├── FAQ.md
+│   └── user-guides/
+│       ├── community.md
+│       ├── engineers.md
+│       ├── spiritual.md
+│       └── educators.md
+│
+├── artifacts/                          ← The 5 React components
+│   ├── rmt-fuel-optimization.jsx
+│   ├── pqc-network-mesh.jsx
+│   ├── steganographic-comm.jsx
+│   ├── max-level-notifiers.jsx
+│   └── master-dashboard.jsx
+│
+├── src/                                ← Source code (if needed)
+│   ├── components/
+│   ├── utils/
+│   └── index.js
+│
+├── examples/                           ← Example configs
+│   ├── basic-setup.yaml
+│   ├── community-deployment.yaml
+│   └── network-mesh.yaml
+│
+├── research/                           ← Academic papers
+│   ├── rmt-application-proof.pdf
+│   ├── wigner-distribution-results.pdf
+│   └── benchmarks.csv
+│
+├── assets/                             ← Images, logos
+│   ├── banner.png
+│   ├── logo.png
+│   ├── diagrams/
+│   └── screenshots/
+│
+├── .github/                            ← GitHub-specific files
+│   ├── ISSUE_TEMPLATE/
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── workflows/
+│       └── tests.yml
+│
+└── package.json                        ← If using npm/node
