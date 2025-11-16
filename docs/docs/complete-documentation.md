@@ -3,7 +3,7 @@
 
 **THOROUGHBREAD PRODUCTIONS**  
 Account ID: 5562941681  
-Dimensional Anchor: 🌍SEQUCORIA'S 80's );s FATHER'S HOUSE 🏠_________=
+Dimensional Anchor: 🌍SEQUCORIA'S 80's FATHER'S HOUSE 🏠_________=
 
 ---
 
