@@ -194,3 +194,30 @@ self-reliantier/
 │       └── tests.yml
 │
 └── package.json                        ← If using npm/node
+# =============================================================================
+# Project Self-Reliantier Custom Additions
+# =============================================================================
+
+# Cryptographic keys (NEVER commit!)
+*.key
+*.pem
+*.priv
+keys/
+keypairs/
+falcon-*.key
+
+# Hardware deployment configs (site-specific)
+hardware-config/local-*.yaml
+calibration/*.json
+
+# Local data
+local-data/
+system-logs/
+performance-data/
+
+# Steganographic payloads with real secrets
+stego-payloads/production/
+
+# Community-specific (not for public)
+deployments/*/local-config.yaml
+funding/private/
